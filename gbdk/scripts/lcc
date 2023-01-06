@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+if [ "$1" = "" ]
+then
+  echo "Usage: lcc <file_name>.c)"
+  exit
+fi
+
+if [ "${1##*.}" != "c" ]; then
+  echo "Usage: extension must be <.c>"
+  exit
+fi
+
+C=$1
+O=${1%.*}.o
+GB=${2:-main}.gb
+
+# delete previous files
+# \rm *.gb
+
+if test -f *.gb; then
+  \rm *.gb
+fi
+
+# compile .c files into .o files
+/home/$USER/gbdk/bin/lcc -c -o $O $C
+
+# Compile a .gb file from the compiled .o files
+/home/$USER/gbdk/bin/lcc -o $GB $O && echo "$GB created"
+
+# delete intermediate files created for the compilation process
+\rm *.asm
+\rm *.lst
+\rm *.ihx
+\rm *.sym
+\rm *.o
