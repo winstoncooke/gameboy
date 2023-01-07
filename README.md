@@ -1,4 +1,4 @@
-# Game Boy
+# Resources for the Nintendo Game Boy
 
 ## Welcome
 
