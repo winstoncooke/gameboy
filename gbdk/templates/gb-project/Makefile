@@ -14,7 +14,7 @@ LCC = $(GBDK_HOME)bin/lcc
 
 # You can set flags for LCC here
 # For example, you can uncomment the line below to turn on debug output
-# LCCFLAGS = -debug
+LCCFLAGS = -Ires
 
 SRCDIR      = src
 OBJDIR      = obj
