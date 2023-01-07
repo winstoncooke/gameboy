@@ -1,0 +1,9 @@
+.vscode/*
+!.vscode/c_cpp_properties.json
+
+*.gb 
+*.sav
+*.asm
+*.ihx
+*.o
+*.sym
