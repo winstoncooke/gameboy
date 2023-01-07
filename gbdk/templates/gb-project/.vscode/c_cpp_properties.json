@@ -17,7 +17,7 @@
     },
     {
       "name": "gameboy",
-      "includePath": ["${workspaceFolder}/**", "/home/${USER}/gbdk/include/**"],
+      "includePath": ["${workspaceFolder}/**", "~/gbdk/include/**"],
       "defines": ["__PORT_gbz80", "__TARGET_gb"],
       "compilerPath": "",
       "cStandard": "c11",
