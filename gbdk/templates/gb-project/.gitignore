@@ -1,6 +1,7 @@
 .vscode/*
 !.vscode/c_cpp_properties.json
 
+obj/
 *.gb 
 *.sav
 *.asm

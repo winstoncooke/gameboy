@@ -7,8 +7,8 @@
 PROJECTNAME    = GBGame
 
 # If you move this project you can change the directory 
-# to match your GBDK root directory (ex: GBDK_HOME = "/home/$(USER)/gbdk/"
-GBDK_HOME = /home/$(USER)/gbdk/
+# to match your GBDK root directory (ex: GBDK_HOME = "~/gbdk/"
+GBDK_HOME = ~/gbdk/
 
 LCC = $(GBDK_HOME)bin/lcc 
 

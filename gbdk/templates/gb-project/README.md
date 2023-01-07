@@ -4,6 +4,6 @@ A minimal template for a Game Boy project built with [GBDK-2020](https://github.
 
 ## Credit
 
-[Makefile](https://github.com/gbdk-2020/gbdk-2020/blob/develop/gbdk-lib/examples/gb/gbdecompress/Makefile)
+[gbdk-2020/gbdk-lib/examples/gb/template-subfolders/](https://github.com/gbdk-2020/gbdk-2020/tree/develop/gbdk-lib/examples/gb/template_subfolders)
 
-[LaroldsJubilantJunkard.com](LaroldsJubilantJunkard.com) - [How to make a Gameboy Game](LaroldsJubilantJunkard.com/tutorials/how-to-make-a-gameboy-game)
+[LaroldsJubilantJunkyard](https://github.com/LaroldsJubilantJunkyard/minimal-gameboy-project)
