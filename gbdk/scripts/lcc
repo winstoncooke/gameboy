@@ -22,10 +22,10 @@ if test -f *.gb; then
 fi
 
 # compile .c files into .o files
-/home/$USER/gbdk/bin/lcc -c -o $O $C
+~/gbdk/bin/lcc -c -o $O $C
 
 # Compile a .gb file from the compiled .o files
-/home/$USER/gbdk/bin/lcc -o $GB $O && echo "$GB created"
+~/gbdk/bin/lcc -o $GB $O && echo "$GB created"
 
 # delete intermediate files created for the compilation process
 \rm *.asm
