@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": ["${workspaceFolder}/**"],
+      "defines": [],
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++17",
+      "intelliSenseMode": "linux-gcc-x64",
+      "configurationProvider": "ms-vscode.makefile-tools"
+    },
+    {
+      "name": "gameboy",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/src/**",
+        "${workspaceFolder}/res/**",
+        "~/gbdk/include/**"
+      ],
+      "defines": ["__PORT_gbz80", "__TARGET_gb"],
+      "compilerPath": "",
+      "cStandard": "c11",
+      "intelliSenseMode": "${default}",
+      "compilerArgs": [],
+      "browse": {
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ],
+  "version": 4
+}
