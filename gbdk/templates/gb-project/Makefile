@@ -4,7 +4,7 @@
 #
 
 # You can set the name of the .gb ROM file here
-PROJECTNAME    = GBGame
+PROJECTNAME = GBGame
 
 # If you move this project you can change the directory 
 # to match your GBDK root directory (ex: GBDK_HOME = "~/gbdk/"
@@ -12,9 +12,10 @@ GBDK_HOME = ~/gbdk/
 
 LCC = $(GBDK_HOME)bin/lcc 
 
+# -Ires = search the res/ folder when compiling
+# -Wm-yC = compile for cgb (Game Boy Color)
 # You can set flags for LCC here
-# For example, you can uncomment the line below to turn on debug output
-LCCFLAGS = -Ires
+LCCFLAGS = -Ires -Wm-yC
 
 SRCDIR      = src
 OBJDIR      = obj
@@ -22,9 +23,9 @@ RESDIR      = res
 BINS	    = $(OBJDIR)/$(PROJECTNAME).gb
 CSOURCES    = $(foreach dir,$(SRCDIR),$(notdir $(wildcard $(dir)/*.c))) $(foreach dir,$(RESDIR),$(notdir $(wildcard $(dir)/*.c)))
 ASMSOURCES  = $(foreach dir,$(SRCDIR),$(notdir $(wildcard $(dir)/*.s)))
-OBJS       = $(CSOURCES:%.c=$(OBJDIR)/%.o) $(ASMSOURCES:%.s=$(OBJDIR)/%.o)
+OBJS        = $(CSOURCES:%.c=$(OBJDIR)/%.o) $(ASMSOURCES:%.s=$(OBJDIR)/%.o)
 
-all:	prepare $(BINS)
+all: prepare $(BINS)
 
 compile.bat: Makefile
 	@echo "REM Automatically generated from Makefile" > compile.bat
@@ -56,5 +57,4 @@ prepare:
 
 clean:
 	@mv $(OBJDIR)/*.gb .
-	@rm -f $(OBJDIR)/*.*
-	@mv *.gb $(OBJDIR)/
+	@rm -rf $(OBJDIR)
