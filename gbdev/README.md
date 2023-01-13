@@ -9,8 +9,8 @@ This is a resource for topics related to Game Boy development.
 
 ## Development Kits
 
-- [GBDK-2020](https://gbdk-2020.github.io/gbdk-2020) - [docs](https://gbdk-2020.github.io/gbdk-2020/docs/api)
-- [RGBDS](https://rgbds.gbdev.io) - [docs](https://rgbds.gbdev.io/docs)
+- [GBDK-2020](https://gbdk-2020.github.io/gbdk-2020) - [docs](https://gbdk-2020.github.io/gbdk-2020/docs/api) - C dev kit
+- [RGBDS](https://rgbds.gbdev.io) - [docs](https://rgbds.gbdev.io/docs) - ASM dev kit
 
 ## Tools
 
