@@ -2,7 +2,7 @@
 
 ## Setting up
 
-This setup assumes you are on Linux using bash.  
+This setup assumes you are on Linux using bash and have already setup [wine](https://wiki.winehq.org/).  
 Scripts should be placed in `/usr/local/bin`.  
 For each script, run `chmod +x <script>` to make executable.
 
