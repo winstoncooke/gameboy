@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec wine ~/.wine/drive_c/wine-applications/GBTD/gbtd.exe "$@"
+exec wine ~/.wine/drive_c/gbdev/GBTD/gbtd.exe "$@"

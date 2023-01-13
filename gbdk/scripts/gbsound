@@ -1,3 +1,3 @@
 #!/bin/bash
 
-exec wine ~/.wine/drive_c/wine-applications/bgb/bgb.exe ~/gbdk/examples/gb/sound/sound.gb
+exec wine ~/.wine/drive_c/gbdev/bgb/bgb.exe ~/gbdk/examples/gb/sound/sound.gb
