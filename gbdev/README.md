@@ -19,3 +19,7 @@ This is a resource for topics related to Game Boy development.
 - [GBTD/GBMB](https://github.com/gbdk-2020/GBTD_GBMB) - Tile designer
 - [GBSoundDemo](https://github.com/gbdk-2020/gbdk-2020/tree/develop/gbdk-lib/examples/gb/sound) - Sound designer
 
+## Tutorials
+- [Larold's Jubilant Junkyard](https://laroldsjubilantjunkyard.com/tutorials/how-to-make-a-gameboy-game/) - GBDK-2020 tutorial in C
+- [GB ASM Tutorial](https://eldred.fr/gb-asm-tutorial/index.html) - RGBDS tutorial in ASM
+
